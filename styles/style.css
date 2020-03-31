@@ -25,9 +25,25 @@ TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.newsweek-bgcolor {
+  background-color: #f72210;
+}
+
+.newsweek-text-color {
+  color: #f72210;
+}
+
 body {
   max-width: 1340px;
   margin: auto;
+  background-color: #d9d9d9!important;
+}
+
+main {
+  border: 2px solid tomato;
+  background-color: white;
+  margin-top: -30px;
+
 }
 
 .font-lora {
@@ -40,7 +56,6 @@ header {
 }
 
 .logo-navbar {
-  background-color: #f72210;
   height: 54%;
 }
 
@@ -72,7 +87,6 @@ header {
   background-color: white;
   padding-left: 12px;
   margin-left:10px;
-  color: #f72210;
 }
 
 .red-arrow {
@@ -98,7 +112,6 @@ header {
   content: "";
   display: block;
   width: 88px;
-  background-color: #f72210;
   border-left: 12px solid white;
   border-top: 13px solid #f72210;
   z-index: 10;
@@ -143,6 +156,76 @@ header {
   padding-bottom: 5px;
   margin-left: 10px;
   color: rgba(0,0,0,.55);
+}
+
+.featured-section {
+  padding: 20px;
+}
+
+.featured-section h3 {
+  width: 110%;
+}
+
+.featured-stories-title {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: 700;
+  padding-bottom: 5px;
+  
+}
+
+.fs-picture {
+  width: 108%;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  background-color: rgb(255, 255, 255, .9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px 15px 9px;
+}
+
+.category a {
+  color: inherit;
+}
+
+.category a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fs-link {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: "Roboto Condensed",sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.fs-link:hover {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.summary-text {
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  width: 108%;
+  margin-bottom: 1.2rem;
 }
 
 .add-border {

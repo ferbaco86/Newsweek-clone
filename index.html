@@ -12,7 +12,7 @@
 </head>
 <body class="container-fluid">
   <header class="container-fluid">
-    <nav class="d-flex row logo-navbar">
+    <nav class="d-flex row logo-navbar newsweek-bgcolor">
       <div class="weather-container col-sm-3">
         <div class="d-flex flex-column align-items-start mt-3 ml-3">
           <a class="weather-text font-roboto text-decoration-none text-reset" href="#">29º &nbsp; Santiago, CL <img class= "white-arrow" src="https://g.newsweek.com/img/weather/ic-white-arrow.png"></a>
@@ -26,12 +26,12 @@
       </div>
       <div class="font-roboto login-container d-flex align-items-center justify-content-end col-sm-3">
         <a class="text-white" href="#">SIGN IN</a>
-        <a class="subscribe-link pr-2"href="#">SUBSCRIBE <img class= "red-arrow" src="/images/Red-Arrow.png"></a>
+        <a class="subscribe-link newsweek-text-color pr-2"href="#">SUBSCRIBE <img class= "red-arrow" src="/images/Red-Arrow.png"></a>
 
       </div>
 
     </nav>
-    <span class="before-bottom-nav"></span>
+    <span class="before-bottom-nav newsweek-bgcolor"></span>
     <nav class="font-roboto d-flex row bottom-nav">
     <div class="col-sm-11 nav-list-wrapper">
       <ul class="pt-3">
@@ -58,6 +58,57 @@
 
     </nav>
   </header>
+  <main>
+    <div class="first-sections-wrapper row">
+      <div class=" col-sm featured-stories-wrapper">
+        <section class="featured-section">
+          <h2 class="font-roboto featured-stories-title">FEATURED STORIES</h2>
+          <article>
+            <div class="img-container">
+              <img class="fs-picture"src="https://d.newsweek.com/en/full/1577311/remote-work-04.jpg?w=397&h=265&q=90&f=0247f052e82448ebccae824dbaf95880" alt= "family working and kids playing around">
+              <div class="category font-roboto newsweek-text-color">
+                <a href="#">Business</a>
+              </div>
+            </div>
+            <h3 class="font-roboto mt-3">
+              <a class="fs-link" href="#">The Coronavirus Will Change How We Work Forever</a>
+            </h3>
+            <p class="font-arial summary-text">As the coronavirus pandemic continues more companies are sending employees home to work. 
+              Is it a passing phase—or a fundamental change in the way we do our jobs?</p>
+          </article>
+          <article>
+            <div class="img-container">
+              <img class="fs-picture"src="https://d.newsweek.com/en/full/1577655/saudi-arabia-yemen-airstrikes-iran-houthis.jpg?w=397&h=265&q=90&f=14f7212a0d351514af4487d3c419a987" alt= "Yemen map">
+              <div class="category font-roboto newsweek-text-color">
+                <a href="#">World</a>
+              </div>
+            </div>
+            <h3 class="font-roboto mt-3">
+              <a class="fs-link" href="#">Saudi Arabia Says It Struck Yemen Missile Sites Hosting Iran Military</a>
+            </h3>
+            <p class="font-arial summary-text">The head of the Saudi-led coalition said "legitimate military targets" 
+              struck included Houthi ballistic missile sites and positions where Iran's Revolutionary Guard experts operated.</p>
+          </article>
+        </section>
+      </div>
+      <div class="col-sm-5 top-story-wrapper add-border border-color-green">
+        <section class="top-story">
+          <article>
+           
+
+
+          </article>
+
+        </section>
+      </div>
+      <div class="col-sm opinion-wrapper add-border border-color-yellow">
+        <section class="opinion">
+
+        </section>
+
+      </div>
+    </div>
+  </main>
  <!-- Optional JavaScript -->
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
