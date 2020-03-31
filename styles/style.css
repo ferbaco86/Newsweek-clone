@@ -6,6 +6,16 @@ MAIN NEWS TITLE: ROBOTO CONDENSED
 MAIN NEWS TEXT: ARIAL
 CULTURE & TRAVEL: LORA
 TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
+* {
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
 
 .font-roboto {
   font-family: 'Roboto Condensed', sans-serif;
@@ -15,6 +25,76 @@ TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  max-width: 1340px;
+  margin: auto;
+}
+
 .font-lora {
   font-family: 'Lora', serif;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+}
+
+.logo-navbar {
+  background-color: #f72210;
+  height: 54%;
+}
+
+.newsweek-logo {
+  width: 396px;
+}
+
+.white-arrow {
+  /* padding-bottom: 0.8px; */
+  vertical-align: baseline;
+}
+
+.weather-container {
+  color: white;
+}
+
+.weather-text {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.login-container {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 35px;
+}
+
+.subscribe-link {
+  background-color: white;
+  padding-left: 12px;
+  margin-left:10px;
+  color: #f72210;
+}
+
+.red-arrow {
+  width: 8px;
+  height: 13.5px;
+  vertical-align: baseline;
+  margin-left: 10px;
+}
+
+.add-border {
+  border: 2px solid;
+}
+
+.border-color-blue {
+  border-color: blue;
+}
+
+.border-color-green {
+  border-color: green;
+}
+
+.border-color-yellow {
+  border-color: yellow;
 }
