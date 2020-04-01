@@ -41,6 +41,10 @@ TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
   color: #f72210;
 }
 
+.ads-color {
+  color: #3581f4;
+}
+
 body {
   max-width: 1340px;
   margin: auto;
@@ -247,6 +251,25 @@ header {
   line-height: 20px;
   width: 94.5%;
   margin-bottom: 1.2rem;
+}
+
+.ad {
+  padding-bottom: 30px;
+}
+
+.info {
+  width: 94.5%;
+  border: 1px solid #e6e6e6;
+  background-color: white;
+  padding: 20px;
+}
+
+.info h3 {
+  width: initial;
+}
+
+.info p {
+  width: initial;
 }
 
 .top-story {
