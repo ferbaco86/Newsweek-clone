@@ -317,6 +317,25 @@ header {
   width: 106%;
 }
 
+.more-stories article {
+  border-top: 1px solid #ddd;
+}
+
+.ms-img-container {
+  width: 95px;
+  padding-top: 2px;
+  margin-right: 15px;
+  float: left;
+}
+
+.ms-link {
+  font-size: 17px;
+}
+
+.ms-text {
+  width: 101%;
+}
+
 .add-border {
   border: 2px solid;
 }
