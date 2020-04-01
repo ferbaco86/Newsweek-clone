@@ -340,6 +340,12 @@ header {
   width: 106%;
 }
 
+.more-stories {
+  height: 650px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .more-stories article {
   border-top: 1px solid #ddd;
 }
@@ -357,6 +363,41 @@ header {
 
 .ms-text {
   width: 101%;
+}
+
+.opinion {
+  padding: 20px 10px;
+}
+
+.opinion-link {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.opinion-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.opinion-author {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.opinion-article {
+  border-top: 1px solid #ddd;
+}
+
+.first-opinion-title {
+  width: 104%;
+}
+
+.opinion-article h4 {
+  width: 104%;
 }
 
 .add-border {
