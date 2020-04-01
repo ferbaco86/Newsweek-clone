@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Newsweek-Clone</title>
   <link rel="icon" type="image/png" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="stylesheet" type="text/css" href="/styles/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/styles/style.css">
 
 </head>
 <body class="container-fluid">
@@ -59,35 +59,38 @@
     </nav>
   </header>
   <main>
-    <div class="first-sections-wrapper row">
-      <div class=" col-sm featured-stories-wrapper">
+    <div class="first-sections-wrapper row no-gutters">
+      <div class="col-sm featured-stories-wrapper">
         <section class="featured-section">
-          <h2 class="font-roboto featured-stories-title">FEATURED STORIES</h2>
+          <h2 class="font-roboto stories-title">FEATURED STORIES</h2>
           <article>
             <div class="img-container">
-              <img class="fs-picture"src="https://d.newsweek.com/en/full/1577311/remote-work-04.jpg?w=397&h=265&q=90&f=0247f052e82448ebccae824dbaf95880" alt= "family working and kids playing around">
+              <img class="fs-picture"src="https://d.newsweek.com/en/full/1578083/mark-esper.jpg?w=397&h=265&q=90&f=004016c111edbaa1377b6272dd10a280" alt= "U.S. Navy Captain Brett Crozier">
               <div class="category font-roboto newsweek-text-color">
-                <a href="#">Business</a>
+                <a href="#">News</a>
               </div>
             </div>
             <h3 class="font-roboto mt-3">
-              <a class="fs-link" href="#">The Coronavirus Will Change How We Work Forever</a>
+              <a class="story-link" href="#">Esper Says He Hasn't Read Captain's Plea From Coronavirus-Stricken Carrier</a>
             </h3>
-            <p class="font-arial summary-text">As the coronavirus pandemic continues more companies are sending employees home to work. 
-              Is it a passing phase—or a fundamental change in the way we do our jobs?</p>
+            <p class="font-arial summary-text">"We are not at war. Sailors do not need to die. 
+              If we do not act now, we are failing to properly take care of our most trusted asset—our Sailors," 
+              U.S. Navy Captain Brett Crozier wrote.</p>
           </article>
           <article>
             <div class="img-container">
-              <img class="fs-picture"src="https://d.newsweek.com/en/full/1577655/saudi-arabia-yemen-airstrikes-iran-houthis.jpg?w=397&h=265&q=90&f=14f7212a0d351514af4487d3c419a987" alt= "Yemen map">
+              <img class="fs-picture"src="https://d.newsweek.com/en/full/1578070/ms-maasdam.jpg?w=397&h=265&q=90&f=3fa5e2b5c5c307a9c83562ae2c7f7654" alt= "Cruise ship">
               <div class="category font-roboto newsweek-text-color">
-                <a href="#">World</a>
+                <a href="#">News</a>
               </div>
             </div>
             <h3 class="font-roboto mt-3">
-              <a class="fs-link" href="#">Saudi Arabia Says It Struck Yemen Missile Sites Hosting Iran Military</a>
+              <a class="story-link" href="#">Over 6,000 People Still on Board Carnival Cruise Ships During Pandemic </a>
             </h3>
-            <p class="font-arial summary-text">The head of the Saudi-led coalition said "legitimate military targets" 
-              struck included Houthi ballistic missile sites and positions where Iran's Revolutionary Guard experts operated.</p>
+            <p class="font-arial summary-text">As Carnival seeks $6 billion 
+              in funding to help with financial fallout caused by the COVID-19 pandemic, 
+              SEC filings on Monday showed that over 6,000 people were still sailing on 
+              ships owned by the company.</p>
           </article>
           <article>
             <div class="img-container">
@@ -97,7 +100,7 @@
               </div>
             </div>
             <h3 class="font-roboto mt-3">
-              <a class="fs-link" href="#">Trump Says U.S. 'Holding Back' 10K Ventilators for 'Surge' in Coronavirus</a>
+              <a class="story-link" href="#">Trump Says U.S. 'Holding Back' 10K Ventilators for 'Surge' in Coronavirus</a>
             </h3>
             <p class="font-arial summary-text">
               "We have to hold them back because the surge is coming and 
@@ -112,7 +115,7 @@
               </div>
             </div>
             <h3 class="font-roboto mt-3">
-              <a class="fs-link" href="#">16 States Restrict Access to Voting by Mail</a>
+              <a class="story-link" href="#">16 States Restrict Access to Voting by Mail</a>
             </h3>
             <p class="font-arial summary-text">Government watchdog group Common Cause 
               has called on all states to "expand vote-by-mail programs 
@@ -120,13 +123,73 @@
           </article>
         </section>
       </div>
-      <div class="col-sm-5 top-story-wrapper add-border border-color-green">
+      <div class="col-sm-5 top-story-wrapper">
         <section class="top-story">
+          <h2 class="font-roboto stories-title">TOP STORY</h2>
           <article>
+            <div class="img-container">
+              <img class="ts-picture"src="https://d.newsweek.com/en/full/1578068/new-york-city.jpg?w=591&h=364&f=4d70b35baa81dfd9c24876eaf2091f31" alt= "Men looking at New York City">
+              <div class="category font-roboto newsweek-text-color">
+                <a href="#">U.S.</a>
+              </div>
+            </div>
+            <h3 class="font-roboto mt-3">
+              <a class="story-link ts-story-link" href="#">New York City Coronavirus Death Toll Surpasses 1,000</a>
+            </h3>
+            <p class="font-arial summary-text ts-story-text">The city's death roll was reported at 914 on Monday night and 776 on Sunday.</p>
            
 
 
           </article>
+          <section class="culture-travel">
+            <h2 class="font-roboto stories-title">CULTURE & TRAVEL</h2>
+            <div class="row">
+              <article class="col-sm-4">
+                <div class="img-container">
+                  <img class="culture-picture"src="https://d.newsweek.com/en/full/1577190/locked-down-italy-playing-music.jpg?w=397&h=397&f=fff013a398a6aa17054e4a960dd6ed06" alt= "Man playing cello">
+                  <div class="culture-tags font-helvetica-neue">
+                    <a href="#">Travel</a>
+                  </div>
+                </div>
+                <h3 class="font-lora mt-3">
+                  <a class="culture-link" href="#">I'm Locked Down in Italy Playing Music—But I'm More Worried About America</a>
+                </h3>
+                <p class="font-helvetica-neue summary-text culture-text">Two American musicians play a nightly concert 
+                  on their balcony while quarantined in their newly adopted home in Italy. 
+                  It's a gift for their neighbors, 
+                  but they also have a strong message for Americans, too.</p>
+              </article>
+              <article class="col-sm-4">
+                <div class="img-container">
+                  <img class="culture-picture"src="https://d.newsweek.com/en/full/1575934/times-square-new-york.jpg?w=397&h=397&f=8e63eb59770c9b104b3e1ef85a1da1a7" alt= "Street crosswalk">
+                  <div class="culture-tags font-helvetica-neue">
+                    <a href="#">Travel</a>
+                  </div>
+                </div>
+                <h3 class="font-lora mt-3 culture-link-title">
+                  <a class="culture-link" href="#">Social Distancing Around the World in Photos</a>
+                </h3>
+                <p class="font-helvetica-neue summary-text culture-text">From Rome's desolate Spanish Steps to New York's deserted Times Square, 
+                  take a look at some of the world's busiest landmarks that are all now but eerily empty.</p>
+              </article>
+              <article class="col-sm-4">
+                <div class="img-container">
+                  <img class="culture-picture"src="https://d.newsweek.com/en/full/1575422/breakfast-lunch-dinner.jpg?w=397&h=397&f=a6dbd65ad3ba41063a6b46b1f92b7a60" alt= "People eating">
+                  <div class="culture-tags font-helvetica-neue">
+                    <a href="#">Travel</a>
+                  </div>
+                </div>
+                <h3 class="font-lora mt-3">
+                  <a class="culture-link" href="#">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</a>
+                </h3>
+                <p class="font-helvetica-neue summary-text culture-text">Travelers can still explore the world while binge-watching 
+                  these travel TV shows in home isolation. 
+                  Thanks to streaming services, we can virtually 
+                  send ourselves to nearly any and every part of the planet in just a few clicks.</p>
+              </article>
+            </div>
+
+          </section>
 
         </section>
       </div>

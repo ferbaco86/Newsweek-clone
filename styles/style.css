@@ -25,6 +25,14 @@ TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.font-helvetica-neue {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
 .newsweek-bgcolor {
   background-color: #f72210;
 }
@@ -40,14 +48,10 @@ body {
 }
 
 main {
-  border: 2px solid tomato;
   background-color: white;
-  margin-top: -30px;
+  margin-top: -25px;
+  border-top: 1px solid #f4f5f6;
 
-}
-
-.font-lora {
-  font-family: 'Lora', serif;
 }
 
 header {
@@ -158,26 +162,31 @@ header {
   color: rgba(0,0,0,.55);
 }
 
+.first-sections-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .featured-section {
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .featured-section h3 {
-  width: 110%;
+  width: 94.5%;
 }
 
-.featured-stories-title {
+.stories-title {
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-  color: rgba(3, 3, 3, 0.4);
+  color: #9A9A9A;
   font-weight: 700;
   padding-bottom: 5px;
   
 }
 
 .fs-picture {
-  width: 108%;
+  width: 94.5%;
 }
 
 .img-container {
@@ -206,7 +215,7 @@ header {
   color: inherit;
 }
 
-.fs-link {
+.story-link {
   font-size: 24px;
   line-height: 24px;
   font-family: "Roboto Condensed",sans-serif;
@@ -215,7 +224,7 @@ header {
   color: black;
 }
 
-.fs-link:hover {
+.story-link:hover {
   color: black;
   text-decoration-color: #f72210;
 }
@@ -224,8 +233,76 @@ header {
   color: #333;
   font-size: 15px;
   line-height: 20px;
-  width: 108%;
+  width: 94.5%;
   margin-bottom: 1.2rem;
+}
+
+.top-story {
+  padding: 20px 10px;
+}
+
+.top-story > article {
+  margin-bottom: 30px;
+}
+
+.ts-picture {
+  width: 101%;
+}
+
+.ts-story-link {
+  font-size: 22px;
+}
+
+.ts-story-text {
+  width: 100%;
+}
+
+.culture-picture {
+  width: 106%;
+}
+
+.culture-tags {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  background-color: #c2d4d7;
+}
+
+.culture-tags a {
+  padding-left: 6px;
+  padding-right: 6px;
+  display: inline-block;
+  color: #272727;
+}
+
+.culture-tags a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+  text-decoration: none;
+}
+
+.culture-link-title {
+  width: 104%;
+}
+
+.culture-link {
+  color: #272727;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.culture-link:hover {
+  text-decoration: none;
+  color: #272727;
+}
+
+.culture-text {
+  color: rgba(39,39,39,.5);
+  width: 106%;
 }
 
 .add-border {
