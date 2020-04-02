@@ -24,6 +24,7 @@ h3 {
 h4 {
   line-height: 21px;
   font-size: unset;
+  margin: 0;
 }
 
 .font-roboto {
@@ -350,7 +351,7 @@ header {
 }
 
 .more-stories {
-  height: 650px;
+  height: 620px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -373,6 +374,7 @@ header {
 
 .ms-text {
   width: 101%;
+  margin-top: 5px;
 }
 
 .opinion {
@@ -482,6 +484,60 @@ header {
 .latest-news-article {
   border-top: 1px solid #ddd;
   padding: 10px 0;
+}
+
+.newsletter-container {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.signup-call {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.logo-icon-newsletter {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.newsletter-link {
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+  width: max-content;
+}
+
+.newsletter-link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.pu-link {
+  color: #333;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: bold;
 }
 
 .add-border {
