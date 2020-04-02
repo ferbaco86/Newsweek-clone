@@ -17,6 +17,15 @@ TEXT INSIDE CULTURE & TRAVEL PHOTOS: HELVETICA NEUE */
   -webkit-font-smoothing: antialiased;
 }
 
+h3 {
+  line-height: 24px;
+}
+
+h4 {
+  line-height: 21px;
+  font-size: unset;
+}
+
 .font-roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -359,6 +368,7 @@ header {
 
 .ms-link {
   font-size: 17px;
+  line-height: 20px;
 }
 
 .ms-text {
@@ -393,11 +403,85 @@ header {
 }
 
 .first-opinion-title {
-  width: 104%;
+  width: 105%;
 }
 
 .opinion-article h4 {
   width: 104%;
+}
+
+.debate-info {
+  width: 104%;
+  border-top: 4px solid #f92859;
+  padding-top: 1px;
+}
+
+.top-border-blue {
+  border-top: 4px solid #1c87fb;;
+}
+
+.debate-author-container {
+  position: relative;
+}
+
+.debate-author-container::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+  }
+
+  .debate-author-container::after {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+  }
+
+.debate-avatar-container {
+  width: 19.5%;
+  z-index: 1;
+}
+
+.debate-avatar-container img {
+  width: 100%;
+}
+
+.debate-author {
+  color: black;
+}
+
+.debate-author:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.vs {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed",sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
+}
+
+.latest-news-fa {
+  padding-bottom: 10px;
+}
+
+.latest-news-article {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
 }
 
 .add-border {
