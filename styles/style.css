@@ -540,6 +540,83 @@ header {
   font-weight: bold;
 }
 
+.second-sections-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.in-the-magazine-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+}
+
+.mag-pic-wrapper {
+  width: 100%;
+}
+
+.mag-pic {
+  width: 100%;
+}
+
+.mag-promo-link {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mag-promo-link::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: 10px;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+}
+
+.mag-article {
+  position: inherit;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cat-span {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  display: inline-block;
+}
+
+.mag-article-link {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.mag-img-container {
+  background-image: url(https://d.newsweek.com/en/full/1577311/remote-work-04.jpg?w=466&h=311&q=90&f=f2840ff6913f357ddffea7af291afbb5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 68.3%;
+}
+
+.mag-img-2 {
+  background-image: url(https://d.newsweek.com/en/full/1575814/us-unemployment-jobs-economy-recession-coronavirus.jpg?w=466&h=311&l=45&t=50&q=90&f=b0d045a877b5f16cdc9e995f12048831);
+}
+
+.mag-img-3 {
+  background-image: url(https://d.newsweek.com/en/full/1573813/us-president-donald-trump.jpg?w=466&h=311&q=90&f=26d109052f04be260abb7772c12b4686);
+}
+
 .add-border {
   border: 2px solid;
 }
