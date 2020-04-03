@@ -577,7 +577,7 @@ header {
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right-black.svg) center/contain no-repeat;
 }
 
 .mag-article {
@@ -615,6 +615,20 @@ header {
 
 .mag-img-3 {
   background-image: url(https://d.newsweek.com/en/full/1573813/us-president-donald-trump.jpg?w=466&h=311&q=90&f=26d109052f04be260abb7772c12b4686);
+}
+
+.bottom-row {
+padding-top: 30px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.t {
+  display: flex;
+  justify-content: center;
+  height: 430px;
 }
 
 .add-border {
