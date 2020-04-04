@@ -607,3 +607,53 @@ header {
 .editor-picks h3 {
   width: 94.5%;
 }
+
+.s-icon {
+  position: relative;
+}
+
+.s-icon::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.slideshow-tag {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.slideshow-link {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.featured-slideshow h4 {
+  width: 100%;
+}
+
+.picks-title {
+  font-size: 22px;
+  line-height: 22px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 25px;
+  text-transform: none;
+}
+
