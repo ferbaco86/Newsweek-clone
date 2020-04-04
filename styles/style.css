@@ -600,36 +600,15 @@ header {
   line-height: 20px;
 }
 
-.mag-img-container {
-  background-image: url(https://d.newsweek.com/en/full/1577311/remote-work-04.jpg?w=466&h=311&q=90&f=f2840ff6913f357ddffea7af291afbb5);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 68.3%;
-}
-
-.mag-img-2 {
-  background-image: url(https://d.newsweek.com/en/full/1575814/us-unemployment-jobs-economy-recession-coronavirus.jpg?w=466&h=311&l=45&t=50&q=90&f=b0d045a877b5f16cdc9e995f12048831);
-}
-
-.mag-img-3 {
-  background-image: url(https://d.newsweek.com/en/full/1573813/us-president-donald-trump.jpg?w=466&h=311&q=90&f=26d109052f04be260abb7772c12b4686);
-}
-
-.bottom-row {
-padding-top: 30px;
-}
 .wrapper {
   width: 100%;
   height: 100%;
 }
 
-.t {
-  display: flex;
-  justify-content: center;
-  height: 430px;
+.promo-tag {
+  line-height: 24px;
 }
+
 
 .add-border {
   border: 2px solid;
