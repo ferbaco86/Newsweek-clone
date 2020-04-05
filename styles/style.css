@@ -43,10 +43,6 @@ h4 {
   font-family: 'Lora', serif;
 }
 
-.newsweek-bgcolor {
-  background-color: #f72210;
-}
-
 .newsweek-text-color {
   color: #f72210;
 }
@@ -533,11 +529,22 @@ header {
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
+.newsletter-link:hover {
+  background-color: #999;
+  text-decoration: none;
+  color: white;
+}
+
 .pu-link {
   color: #333;
   font-size: 15px;
   line-height: 15px;
   font-weight: bold;
+}
+
+.pu-link:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .second-sections-wrapper {
@@ -655,5 +662,93 @@ header {
   border-top: 1px solid #d9d9d9;
   padding-top: 25px;
   text-transform: none;
+}
+
+.subs-news-container::before {
+  content: "";
+  display: block;
+  background-color: #f4f5f6;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  right: -30px;
+}
+
+.covers-pic {
+  padding-bottom: 13px;
+  padding-right: 90px;
+  flex: none;
+}
+
+.previous-cover {
+  width: 170px;
+  height: 228px;
+}
+
+.current-cover {
+  top: 13px;
+  left: 80px;
+}
+
+.bg-color-grey {
+  background-color: #f4f5f6;;
+}
+
+.subs-news-content {
+  margin-left: 1px;
+}
+
+.subscribe-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.subscribe-text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  margin-bottom: 25px;
+}
+
+.newsweek-bgcolor {
+  background-color: #f72210;
+}
+
+.sub-btn:hover {
+  background-color: #de1f0e;
+  text-decoration: none;
+  color: white;
+}
+
+.subs-news-info a:hover {
+  text-decoration: none;
+}
+
+.nl-pic {
+  background: rgba(0, 0, 0, 0) 
+  url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+  max-width: 191px;
+  width: 48%;
+}
+
+.nl-info {
+  border-left-width: 0;
+  border: 1px solid #ebebeb;
+  flex: 1;
+  padding: 30px;
+}
+
+.subs-news-title {
+  font-size: 16px;
+  line-height: 16px;
+  border-top: none;
+}
+
+.nl-title-padding {
+  padding-right: 300px;
 }
 
