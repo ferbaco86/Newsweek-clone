@@ -54,7 +54,7 @@ h4 {
 body {
   max-width: 1340px;
   margin: auto;
-  background-color: #d9d9d9!important;
+  background-color: #f4f5f6!important;
 }
 
 main {
@@ -751,4 +751,86 @@ header {
 .nl-title-padding {
   padding-right: 300px;
 }
+
+footer {
+  background-color: white;
+  padding: 30px 30px 0px 30px;
+  margin-top: -25px;
+}
+
+footer::before { 
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #f4f5f6;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    right: -30px;
+  }
+
+.footer-logo {
+  max-width: 236px;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.social-icons li {
+  padding: 0 8px;
+}
+
+.social-icons a {
+  font-size: 26px;
+  line-height: 20px;
+  color: #666;
+}
+
+.social-icons a:hover {
+  color: #1c87fb;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-links {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.footer-links li {
+  border-right: 1px solid;
+  border-right-color: #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.footer-links-list li:last-child {
+  border-right: none;
+}
+
+.footer-links a {
+  color: #666;
+}
+
+.footer-links a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.bottom-links li{
+  margin: 10px 10px 0 0;
+}
+
+
 
