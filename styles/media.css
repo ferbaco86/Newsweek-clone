@@ -30,4 +30,8 @@
   main {
     margin-top: -130px;
   }
+
+  .more-stories {
+    max-height: 610px;
+  }
 }
