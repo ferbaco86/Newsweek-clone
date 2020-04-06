@@ -35,3 +35,40 @@
     max-height: 610px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .top-story {
+    padding-left: 0;
+  }
+
+  .more-stories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ms-text, .editor-picks p{
+    font-size: 13px;
+  }
+
+  .opinion {
+    padding: 20px 0;
+  }
+
+  .in-the-magazine a {
+    font-size: 16px;
+  }
+
+  .editor-picks-link {
+    font-size: 20px;
+  }
+
+  .slideshow-link {
+    font-size: 18px;
+  }
+
+  .featured-slideshow h4 {
+    margin-bottom: 30px;
+  }
+
+ 
+}
