@@ -352,7 +352,7 @@ header {
 }
 
 .more-stories {
-  max-height: 575px;
+  max-height: 565px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -392,6 +392,10 @@ header {
   text-decoration: none;
 }
 
+.opinion-img-container {
+  margin-right: 15px;
+}
+
 .opinion-author {
   font-size: 14px;
   line-height: 21px;
@@ -406,17 +410,21 @@ header {
 }
 
 .first-opinion-title {
-  width: 105%;
+  width: 100%;
 }
 
 .opinion-article h4 {
-  width: 104%;
+  width: 100%;
 }
 
 .debate-info {
-  width: 104%;
+  width: 100%;
   border-top: 4px solid #f92859;
   padding-top: 1px;
+}
+
+.debate-link-container {
+  width: 17vw;
 }
 
 .top-border-blue {
@@ -523,6 +531,7 @@ header {
   margin-bottom: 15px;
   background-color: #666;
   width: max-content;
+  white-space: nowrap;
 }
 
 .newsletter-link::after {
