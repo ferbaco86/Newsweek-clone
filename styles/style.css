@@ -51,6 +51,8 @@ h4 {
   color: #3581f4;
 }
 
+
+
 body {
   max-width: 1340px;
   margin: auto;
@@ -119,10 +121,6 @@ header {
   padding-right: 160px;
 }
 
-.nav-list-wrapper {
-  width: 100%;
-} 
-
 .before-bottom-nav {
   position: absolute;
   top: 0;
@@ -135,7 +133,7 @@ header {
   border-top: 13px solid #f72210;
 }
 
-.nav-list-wrapper ul {
+.nav-list-wrapper ul, .opinion-article h4, .debate-avatar-container img, .editor-picks h3, .featured-slideshow h4   {
   width: 100%;
 }
 
@@ -195,7 +193,7 @@ header {
 }
 
 .featured-section h3 {
-  width: 94.5%;
+  width: 22vw;
 }
 
 .stories-title {
@@ -208,12 +206,8 @@ header {
   
 }
 
-.pic-full-width {
+.full-width {
   width: 100%;
-}
-
-.fs-picture {
-  width: 94.5%;
 }
 
 .img-container {
@@ -260,31 +254,11 @@ header {
   color: #333;
   font-size: 15px;
   line-height: 20px;
-  width: 94.5%;
   margin-bottom: 1.2rem;
 }
 
-.ad {
-  padding-bottom: 30px;
-}
-
-.info {
-  width: 94.5%;
-  border: 1px solid #e6e6e6;
-  background-color: white;
-  padding: 20px;
-}
-
-.info h3 {
-  width: initial;
-}
-
-.info p {
-  width: initial;
-}
-
 .top-story {
-  padding: 20px 0 0 10px;
+  padding: 20px 10px 0 25px;
 }
 
 .top-story > article {
@@ -292,19 +266,11 @@ header {
 }
 
 .ts-picture {
-  width: 101%;
+  width: 102%;
 }
 
 .ts-story-link {
   font-size: 22px;
-}
-
-.ts-story-text {
-  width: 100%;
-}
-
-.culture-picture {
-  width: 106%;
 }
 
 .culture-tags {
@@ -330,10 +296,6 @@ header {
   text-decoration: none;
 }
 
-.culture-link-title {
-  width: 104%;
-}
-
 .culture-link {
   color: #272727;
   font-size: 20px;
@@ -348,7 +310,6 @@ header {
 
 .culture-text {
   color: rgba(39,39,39,.5);
-  width: 106%;
 }
 
 .more-stories {
@@ -409,16 +370,7 @@ header {
   border-top: 1px solid #ddd;
 }
 
-.first-opinion-title {
-  width: 100%;
-}
-
-.opinion-article h4 {
-  width: 100%;
-}
-
 .debate-info {
-  width: 100%;
   border-top: 4px solid #f92859;
   padding-top: 1px;
 }
@@ -460,10 +412,6 @@ header {
 .debate-avatar-container {
   width: 63px;
   z-index: 1;
-}
-
-.debate-avatar-container img {
-  width: 100%;
 }
 
 .debate-author {
@@ -571,14 +519,6 @@ header {
   padding-bottom: 8px;
 }
 
-.mag-pic-wrapper {
-  width: 100%;
-}
-
-.mag-pic {
-  width: 100%;
-}
-
 .mag-promo-link {
   display: block;
   background-color: #f4f5f6;
@@ -625,10 +565,6 @@ header {
   line-height: 24px;
 }
 
-.editor-picks h3 {
-  width: 94.5%;
-}
-
 .s-icon {
   position: relative;
 }
@@ -664,10 +600,6 @@ header {
 .slideshow-link {
   font-size: 22px;
   line-height: 22px;
-}
-
-.featured-slideshow h4 {
-  width: 100%;
 }
 
 .picks-title {
