@@ -9,28 +9,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/media.css">
 
 </head>
 <body class="container-fluid">
   <header class="container-fluid">
     <nav class="d-flex row logo-navbar newsweek-bgcolor">
-      <div class="weather-container col-sm-3">
-        <div class="d-flex flex-column align-items-start mt-3 ml-3">
+      <div class="d-sm-flex align-items-center weather-container col-lg-3 col-sm-6">
+        <a class ="d-lg-none" href="#">
+          <img class="newsweek-logo-small" src="/images/Newsweek_Logo.png" alt="Newsweek Logo">
+        </a>
+        <div class="d-flex flex-column align-items-start mt-lg-3 ml-sm-3">
           <a class="weather-text font-roboto text-decoration-none text-reset" href="#">29º &nbsp; Santiago, CL <img class= "white-arrow" src="https://g.newsweek.com/img/weather/ic-white-arrow.png" alt="white arrow"></a>
-          <span class="font-roboto">Mon, Mar 30, 2020</span>
+          <span class="font-roboto d-none d-lg-block">Mon, Mar 30, 2020</span>
         </div>
       </div>
-      <div class="d-flex justify-content-center align-items-center col-sm-6">
+      <div class="d-lg-flex justify-content-center align-items-center col-lg-6 d-none">
         <a href="#">
-          <img class="newsweek-logo" src="/images/Newsweek_Logo.png" alt="Newsweek Logo">
+          <img class="newsweek-logo d-none d-lg-block" src="/images/Newsweek_Logo.png" alt="Newsweek Logo">
         </a>
       </div>
-      <div class="font-roboto login-container d-flex align-items-center justify-content-end col-sm-3">
+      <div class="font-roboto login-container d-flex align-items-center justify-content-end col-lg-3 col-sm-6 action-btn">
         <a class="text-white" href="#">SIGN IN</a>
         <a class="subscribe-link newsweek-text-color pr-2" href="#">SUBSCRIBE <img class= "red-arrow" src="/images/Red-Arrow.png" alt="red arrow"></a>
+        <span class="menu-icon d-sm-block d-lg-none"><i class="fas fa-bars"></i></span>
       </div>
     </nav>
-    <nav class="font-roboto row justify-content-center bottom-nav pt-3">
+    <nav class="font-roboto row justify-content-center bottom-nav pt-3 d-none d-lg-block">
       <span class="before-bottom-nav newsweek-bgcolor"></span>
       <div class="nav-list-wrapper d-flex justify-content-center">
         <ul class="d-flex justify-content-center">
@@ -118,40 +123,6 @@
               has called on all states to "expand vote-by-mail programs 
               and absentee voting wherever possible."</p>
           </article>
-        <!--   <article>
-            <div class="ad">
-              <div class="img-container">
-                <img class="fs-picture"src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a" alt= "Cyber security">
-                <div class="category font-roboto ads-color">
-                  Sponsored Insight
-                </div>
-              </div>
-              <div class="info">
-                <h3 class="reset-width font-roboto mt-3">
-                  <a class="story-link" href="#">Weathering the Perfect Storm</a>
-                </h3>
-                <p class="font-arial summary-text mb-1">COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. 
-                  Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.</p>
-              </div>
-           </div>
-          </article>
-          <article>
-            <div class="ad">
-              <div class="img-container">
-                <img class="fs-picture"src="https://d.newsweek.com/en/full/1571226/guest-house-oscala.jpg?w=500&h=333&f=d787e5d9fb89f5732572966a47675994" alt= "Big house entrance">
-                <div class="category font-roboto ads-color">
-                  Sponsored Insight
-                </div>
-              </div>
-              <div class="info">
-                <h3 class="reset-width font-roboto mt-3">
-                  <a class="story-link" href="#">Who Leads the Field in Dependency Treatment in 2020?</a>
-                </h3>
-                <p class="font-arial summary-text mb-1">When seeking guidance on beating an addiction, there are many things to consider. 
-                  Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
-              </div>
-           </div>
-          </article> -->
         </section>
       </div>
       <div class="col-sm-5 top-story-wrapper">
@@ -795,7 +766,7 @@
           <div class="row">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" alt= "Star Wars filming location">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" alt= "Star Wars filming location">
                 <div class="category font-roboto newsweek-text-color">
                   <a class ="slideshow-tag" href="#">11</a>
                 </div>
@@ -806,7 +777,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.jpg?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6" alt= "Eyjafjallajokull, Iceland">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.jpg?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6" alt= "Eyjafjallajokull, Iceland">
                 <div class="category font-roboto newsweek-text-color">
                   <a class ="slideshow-tag" href="#">18</a>
                 </div>
@@ -817,7 +788,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.jpg?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d" alt= "Lipschutz living room hotel chelsea">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.jpg?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d" alt= "Lipschutz living room hotel chelsea">
                 <div class="category font-roboto newsweek-text-color">
                   <a class ="slideshow-tag" href="#">12</a>
                 </div>
@@ -840,7 +811,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579086/anthony-fauci.jpg?w=397&h=265&f=f64eed001061a41f4e0faf51ea6d2d59" alt= "anthony fauci">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579086/anthony-fauci.jpg?w=397&h=265&f=f64eed001061a41f4e0faf51ea6d2d59" alt= "anthony fauci">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Tucker Carlson Says Fauci Has Been 'Wrong Repeatedly' About Coronavirus</a>
@@ -848,7 +819,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579084/fdny.jpg?w=397&h=265&f=6acb7e4eaf0c17c2581224288b318008" alt= "Fire Department NYC ">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579084/fdny.jpg?w=397&h=265&f=6acb7e4eaf0c17c2581224288b318008" alt= "Fire Department NYC ">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">New York Firefighters Give a Big Thank You to Coronavirus Medical Workers</a>
@@ -893,7 +864,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1578994/india.jpg?w=397&h=265&l=0&t=0&f=c45e0801cbd01c2230562a93fd714108" alt= "India">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1578994/india.jpg?w=397&h=265&l=0&t=0&f=c45e0801cbd01c2230562a93fd714108" alt= "India">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">India's Coronavirus Outbreak Stokes Islamophobia</a>
@@ -901,7 +872,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1578489/healthcare-workers-dealing-new-coronavirus-crisis-wave-return-they-are-cheered-people-outside.jpg?w=397&h=265&f=85ad12a30bd9980dba2d9cd40cfde6df" alt= "Spain nurses">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1578489/healthcare-workers-dealing-new-coronavirus-crisis-wave-return-they-are-cheered-people-outside.jpg?w=397&h=265&f=85ad12a30bd9980dba2d9cd40cfde6df" alt= "Spain nurses">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Spain Flattens the Curve With Smallest Increase in Cases Since the Outbreak</a>
@@ -946,7 +917,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579096/los-angeles-california.jpg?w=397&h=265&f=909dbed9e539fa4aeae04bb2400e44e2" alt= "Los Angeles, California">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579096/los-angeles-california.jpg?w=397&h=265&f=909dbed9e539fa4aeae04bb2400e44e2" alt= "Los Angeles, California">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">L.A. Files Charges Against Four Shops for Violating 'Safer at Home' Order</a>
@@ -954,7 +925,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579098/bank-america.jpg?w=397&h=265&f=35ab44cc4ad9a6b68178a3da90f7a32a" alt= "Bank of America">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579098/bank-america.jpg?w=397&h=265&f=35ab44cc4ad9a6b68178a3da90f7a32a" alt= "Bank of America">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Customers Fume as Banks Struggle With Stimulus Loan Rollout</a>
@@ -999,7 +970,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1578985/methane-worms.jpg?w=397&h=265&f=598563ba6e737a3667212f63a4f61444" alt= "Worms">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1578985/methane-worms.jpg?w=397&h=265&f=598563ba6e737a3667212f63a4f61444" alt= "Worms">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Worms on the Seafloor That Gobble up Methane Through Their Skin Discovered</a>
@@ -1007,7 +978,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1578989/ngc-4651.jpg?w=397&h=265&f=a9aef3665db0bed30fdd4199c5f91905" alt= "Space, galaxy">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1578989/ngc-4651.jpg?w=397&h=265&f=a9aef3665db0bed30fdd4199c5f91905" alt= "Space, galaxy">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Cannibal 'Umbrella Galaxy' That Ate Neighbor Revealed in Spectacular Pic</a>
@@ -1052,7 +1023,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579120/walking-dead-negan-10x15.jpg?w=397&h=265&f=45d02f07bac899b4a7fe4e3ba4907361" alt= "Walking Dead Negan">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579120/walking-dead-negan-10x15.jpg?w=397&h=265&f=45d02f07bac899b4a7fe4e3ba4907361" alt= "Walking Dead Negan">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">'The Walking Dead' Finale Delay - Everything We Know</a>
@@ -1060,7 +1031,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579109/walking-dead-10x15-daryl-judith.jpg?w=397&h=265&f=35ea61990ccff546d3afaf9b24eb5e27" alt= "Walking Dead, Daryl and Judith">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579109/walking-dead-10x15-daryl-judith.jpg?w=397&h=265&f=35ea61990ccff546d3afaf9b24eb5e27" alt= "Walking Dead, Daryl and Judith">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">'The Walking Dead' Season 10 Episode 15 Spoilers</a>
@@ -1105,7 +1076,7 @@
           <div class="row pb-4">
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1292359/braun-strowman-monday-night-raw-wwe.jpg?w=397&h=265&f=6c0a2c939dfd46213492c94ba6c5d72a" alt= "braun strowman monday night raw wwe">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1292359/braun-strowman-monday-night-raw-wwe.jpg?w=397&h=265&f=6c0a2c939dfd46213492c94ba6c5d72a" alt= "braun strowman monday night raw wwe">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Braun Strowman to Replace Roman Reigns at WrestleMania 36</a>
@@ -1113,7 +1084,7 @@
             </article>
             <article class="col-sm-4">
               <div class="img-container">
-                <img src="https://d.newsweek.com/en/full/1579081/empty-stadium-seats.jpg?w=397&h=265&f=72e4cfd0ed96ffbb7e756e468bafe7ee" alt= "Empty stadium seats">
+                <img class= "pic-full-width" src="https://d.newsweek.com/en/full/1579081/empty-stadium-seats.jpg?w=397&h=265&f=72e4cfd0ed96ffbb7e756e468bafe7ee" alt= "Empty stadium seats">
               </div>
               <h4 class="font-roboto mt-3">
                 <a class="story-link slideshow-link" href="#">Sports Events Canceled or Postponed by Coronavirus 2020</a>

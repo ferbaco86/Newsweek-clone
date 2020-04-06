@@ -1,0 +1,33 @@
+@media screen and (max-width: 991px) {
+  
+  .newsweek-logo-small {
+    width: 132px;
+    height: 20px;
+  }
+
+  .logo-navbar {
+    height: 50px;
+  }
+
+  .action-btn {
+    padding-top: 0;
+  }
+
+  .weather-text {
+    margin-top: 5px;
+  }
+
+  .menu-icon {
+    font-size: 28px;
+    padding: 5px 5px 5px 25px;
+    color: white;
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+  main {
+    margin-top: -130px;
+  }
+}

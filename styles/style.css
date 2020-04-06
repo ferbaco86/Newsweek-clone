@@ -207,6 +207,10 @@ header {
   
 }
 
+.pic-full-width {
+  width: 100%;
+}
+
 .fs-picture {
   width: 94.5%;
 }
