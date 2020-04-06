@@ -55,6 +55,7 @@ body {
   max-width: 1340px;
   margin: auto;
   background-color: #f4f5f6!important;
+  overflow-x: hidden;
 }
 
 main {
@@ -283,7 +284,7 @@ header {
 }
 
 .top-story {
-  padding: 20px 10px;
+  padding: 20px 0 0 10px;
 }
 
 .top-story > article {
@@ -351,7 +352,7 @@ header {
 }
 
 .more-stories {
-  height: 620px;
+  max-height: 575px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -449,7 +450,7 @@ header {
   }
 
 .debate-avatar-container {
-  width: 19.5%;
+  width: 63px;
   z-index: 1;
 }
 
