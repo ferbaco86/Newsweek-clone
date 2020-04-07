@@ -51,6 +51,9 @@ h4 {
   color: #3581f4;
 }
 
+html {
+  overflow-x: hidden;
+}
 
 
 body {
@@ -384,26 +387,26 @@ header {
 }
 
 .debate-author-container::before {
-    content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    top: 12px;
-    left: 0;
-    right: 0;
-  }
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+}
 
-  .debate-author-container::after {
-    content: "";
-    display: block;
-    background-color: #d9d9d9;
-    height: 1px;
-    position: absolute;
-    top: 15px;
-    left: 0;
-    right: 0;
-  }
+.debate-author-container::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+}
 
 .debate-avatar-container {
   width: 63px;
@@ -456,7 +459,6 @@ header {
 }
 
 .logo-icon-newsletter {
-  -webkit-flex: none;
   flex: none;
   display: block;
   width: 29px;
@@ -773,6 +775,3 @@ footer::before {
 .bottom-links li{
   margin: 10px 10px 0 0;
 }
-
-
-
