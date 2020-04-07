@@ -34,6 +34,10 @@
   .more-stories {
     max-height: 610px;
   }
+
+  .debate-link-container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -58,7 +62,7 @@
     font-size: 16px;
   }
 
-  .editor-picks-link {
+  .editor-picks-link, .subscribe-title{
     font-size: 20px;
   }
 
@@ -70,5 +74,70 @@
     margin-bottom: 30px;
   }
 
+  .picks h4 {
+    padding-bottom: 25px;
+  }
+
+  .subs-news-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nl-pic {
+    max-width: 100%;
+    width: 100%;
+    height: 160px;
+  }
+
+  .nl-info {
+    text-align: center;
+  }
+
+  .copyright {
+    padding: 10px 0;
+  }
  
+}
+
+@media screen and (max-width: 640px) {
+  .weather-city {
+    display: none;
+  }
+
+  .weather-container {
+    display: flex;
+  }
+
+  .login-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+@media screen and (max-width: 542px) {
+  .login-container {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .red-arrow {
+    display: none;
+  }
+
+  .subscribe-link {
+    margin-left: 2px;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+  }
+
+}
+
+@media screen and (max-width: 444px) {
+  .degrees {
+    display: none;
+  }
 }
