@@ -1,5 +1,4 @@
 @media screen and (max-width: 991px) {
-  
   .newsweek-logo-small {
     width: 132px;
     height: 20px;
@@ -50,7 +49,8 @@
     flex-direction: column;
   }
 
-  .ms-text, .editor-picks p{
+  .ms-text,
+  .editor-picks p {
     font-size: 13px;
   }
 
@@ -62,7 +62,8 @@
     font-size: 16px;
   }
 
-  .editor-picks-link, .subscribe-title{
+  .editor-picks-link,
+  .subscribe-title {
     font-size: 20px;
   }
 
@@ -97,7 +98,6 @@
   .copyright {
     padding: 10px 0;
   }
- 
 }
 
 @media screen and (max-width: 640px) {
@@ -113,7 +113,6 @@
     padding-left: 5px;
     padding-right: 5px;
   }
-
 }
 
 @media screen and (max-width: 542px) {
@@ -133,7 +132,6 @@
     padding-bottom: 5px;
     padding-right: 0;
   }
-
 }
 
 @media screen and (max-width: 444px) {
